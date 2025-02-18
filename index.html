@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5.5dars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <div class="logo">
+            <a class="siteLogo" href="#"><img class="siteLogo__img" src="./img/Logo.png" alt="siteLogo" width="21" height="21"></a>
+            <h3 class="SiteName">Character Counter</h3>
+            </div>
+            <a class="darkMode" href="#"><img class="darkModeIcon" src="./img/modeIcon.png" alt="moonIcon"></a>
+        </div>
+    </header>
+    <hero class="hero">
+        <section class="hero__title container">
+            <div class="hero__title__div container">
+                <h1 class="title">Analyze your text <br> in real-time.</h1>
+            </div>
+        </section>
+        <section class="inputo container">
+            <div class="input_div">
+                <form action="">
+                    <input type="text" class="textWriterPlace" placeholder="Start typing here… (or paste your text)">
+                </form>
+                <div class="underTextWrite">
+                    <div class="inputo__checkboxes">
+                        <form class="inputo__form" action="">
+                            <div class="formIndiv">
+                            <input class="checks" type="checkbox" id="option1">
+                            <label for="option1">Exclude Spaces</label>
+                            </div>
+                            <div class="formIndiv">
+                            <input class="checks" type="checkbox" id="option2">
+                            <label for="option2">Set Character Limit</label>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="inputo__parahrafe"><p class="inputo__parahraf">Approx. reading time: <p class="parahraf__parahraf">0</p>  minute</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="options">
+            <div class="options__container container">
+                <div class="options__child">
+                    <h2 class="options_child__number">00</h2>
+                    <h4 class="options_child__property">Total Characters</h4>
+                </div>
+
+                <div class="options__child">
+                    <h2 class="options_child__number">00</h2>
+                    <h4 class="options_child__property">Word Count</h4>
+                </div>
+
+                <div class="options__child">
+                    <h2 class="options_child__number">00</h2>
+                    <h4 class="options_child__property">Sentence Count</h4>
+                </div>
+            </div>
+        </section>
+    </hero>
+    <script src="app.js"></script>
+</body>
+</html>
