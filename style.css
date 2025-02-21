@@ -229,3 +229,41 @@ margin-bottom: 48px;
         max-width: 524px;
     }
 }
+
+
+.letterDensity {
+    display: flex;
+    flex-direction: column;
+}
+.letterDensityTitle {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.list {
+    
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap:14px;
+}
+
+.result {
+    flex-shrink: 0;
+}
+
+.wrapper {
+    width:100%;
+    max-width: 859px;
+    height:12px;
+    background-color:#f2f2f7;
+    border-radius: 999px;
+}
+
+.proccess {
+    background-color:#D3A0FA;
+    height:inherit;
+    border-radius:inherit;
+}
